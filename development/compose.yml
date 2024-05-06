@@ -1,0 +1,11 @@
+services:
+  project:
+    image: isas_project-${PROJECT_NAME}:development
+    container_name: project-${PROJECT_NAME}_development
+    build: ./
+    volumes:
+      - .:/root/workspace
+      - ${HOST_DATADRIVE_PATH}/project-${PROJECT_NAME}_development:/root/datadrive
+      - ${HOST_SSH_PATH}:/root/.ssh
+    env_file:
+      - .env

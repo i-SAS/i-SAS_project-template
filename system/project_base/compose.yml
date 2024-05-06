@@ -1,0 +1,10 @@
+services:
+  project:
+    image: isas_project-${PROJECT_NAME}:system
+    container_name: project-${PROJECT_NAME}_system
+    build: ./
+    volumes:
+      - .:/root/workspace
+      - ${HOST_SSH_PATH}:/root/.ssh
+    env_file:
+      - .env
