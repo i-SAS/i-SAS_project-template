@@ -7,8 +7,8 @@ repository = "https://github.com/i-SAS/i-SAS_project-{template}"
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.12"
-isas = { git = "ssh://git@github.com/i-SAS/i-SAS_Interface_MIT", branch = "master" }
-isas_subpackage_template = { git = "ssh://git@github.com/i-SAS/i-SAS_Subpackage-template_MIT", branch = "master" }
+isas = { git = "ssh://git@github.com/i-SAS/i-SAS_Interface", tag = "v1.0.0" }
+isas_subpackage_template = { git = "ssh://git@github.com/i-SAS/i-SAS_Subpackage-template", tag = "v1.0.0" }
 
 [tool.poetry.dev-dependencies]
 flake8 = "6.1.0"
