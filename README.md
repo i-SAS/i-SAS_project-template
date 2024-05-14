@@ -1,8 +1,6 @@
 # i-SAS_project-{template}
-This repository is an implementation of i-SAS project {template}, including executable code for i-SAS package.
 
-> [!IMPORTANT]
-> This repository is not complete but development has been stopped.
+This repository is an implementation of i-SAS project {template}, including executable code for i-SAS package.
 
 ## 1. Project Types
 
